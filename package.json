@@ -27,6 +27,10 @@
     "viewport-dimensions",
     "pinpoint-accuracy"
   ],
+"publishConfig": {
+   "@chintan.sah:registry": "https://npm.pkg.github.com"
+ }
+
   "scripts": {
     "build": "babel src --out-dir dist",
     "bump": "npm version",
