@@ -1,17 +1,11 @@
 {
-  "name": "upsect",
+  "name": "@upsect/recoil",
   "version": "1.1.0",
   "description": "React hook for just-in-time component rendering, with first-class support for Tailwind CSS.",
   "license": "BSD-3-Clause",
-  "author": "Nathan",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chintanshahts/upspect-recoil.git"
-  },
-  "bugs": {
-    "url": "https://github.com/chintanshahts/upspect-recoil/issues"
-  },
-  "homepage": "https://github.com/chintanshahts/upspect-recoil#readme",
+  "author": "Nathan Allen <nallen@upsect.com>",
+  "repository": "github:upsect/recoil",
+  "bugs": "https://github.com/upsect/recoil/issues",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -27,10 +21,6 @@
     "viewport-dimensions",
     "pinpoint-accuracy"
   ],
-"publishConfig": {
-   "@chintan.sah:registry": "https://npm.pkg.github.com"
- },
-
   "scripts": {
     "build": "babel src --out-dir dist",
     "bump": "npm version",
