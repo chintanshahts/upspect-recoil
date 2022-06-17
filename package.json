@@ -1,5 +1,5 @@
 {
-  "name": "upsect",
+  "name": "upspect",
   "version": "1.1.0",
   "description": "React hook for just-in-time component rendering, with first-class support for Tailwind CSS.",
   "license": "BSD-3-Clause",
