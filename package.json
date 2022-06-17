@@ -29,7 +29,7 @@
   ],
 "publishConfig": {
    "@chintan.sah:registry": "https://npm.pkg.github.com"
- }
+ },
 
   "scripts": {
     "build": "babel src --out-dir dist",
